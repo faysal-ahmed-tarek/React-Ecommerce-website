@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&display=swap');
+*{
+    font-family:  'Maven Pro', sans-serif;;
+}
+.custom_container{
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    line-height: 70px;
+}
+.top_header_nav li {
+    list-style: none;
+    margin-right: 15px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #333 !important;
+
+}
+
+.top_header_nav.col-lg-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top_header_nav li span {
+    background: radial-gradient(#005bea, #6a11cb);
+    font-size: 10px;
+    border-radius: 100%;
+}
+
+.top_header_nav li svg {
+    font-size: 20px;
+    color: #232323;
+}
+.search_bar input {width: 300px;padding: 10px 10px;font-size: 15px;color: #333;font-weight: 500;text-transform: capitalize;outline: none;border: 2px solid #005bea;border-top-left-radius: 8px;border-bottom-left-radius: 8px;}
+
+.search_bar select {
+    border: 2px solid #005bea;
+    padding: 10px 10px 12px 20px;
+    border-left: 0px;
+    cursor: pointer;
+    color: #333;
+    outline: none;
+}
+
+.search_bar {padding: 15px 0px;}
+
+.search_bar button {
+    background: linear-gradient(45deg, #005bea, #6a11cb);
+    color: white;
+    outline: none !important;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px 40px 12px 40px;
+}
+
+@media(max-width:1000px){
+    
+}
